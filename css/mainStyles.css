@@ -27,10 +27,6 @@ body {
     font-family: "Montserrat-Light";
 }
 
-.col-lg-6 {
-    padding: 1rem 1rem 1rem 1rem;
-    
-}
 
 h1.landingPageTitle {
     font-family: "Montserrat-Black";
@@ -115,8 +111,20 @@ p.landingPageDescription {
 
 .favorite-books-page-description {
     text-align: center;
+    border: #000 solid;
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: large;
+}
+
+.book-listing-style {
+    background-color: #C9D6DF;
+    border: #000 solid;
+    font-family: "ubuntu";
+    font-weight: bolder;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
