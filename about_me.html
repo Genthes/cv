@@ -5,44 +5,79 @@
         <title>
             About Me
         </title>
+
+        <!-- Bootstrap CSS Link -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/mainStyles.css">
+
     </head>
     <body>
+
+      <!-- Boostrap Javascript Link -->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
-      <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./favicon.ico"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about_me.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact_me.html">Contact Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Ongoing_Book_List.html">Favorite Books</a>
-              </li>
-            </ul>
+
+      <section id="Title">
+        <!-- Navigation Bar Content -->
+        <div class="row">
+          <div class="col-lg-12" style="background-color: none; border: 1px solid;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                  <img src="images/imcodylogo.png" alt="Bootstrap" width="80" height="60">
+                  Welcome to my site
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about_me.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact_me.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Ongoing_Book_List.html">Favorite Books</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
           </div>
         </div>
-      </nav>
+      
 
+        <!-- Main Content of the Page -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 about-page-title">
+              <h1><b>I was never good at talking about myself</b></h1>
+            </div> 
+          </div>
 
-        <h1><b>I was never good at talking about myself</b></h1>
-        <hr>
-        <p>I've spent most of my life in North Georgia. Most of the work I've done up to this point has been in the Helen area and the Dahlonega area. I have always been either a line cook, prep cook, or sous chef. i never enjoyed being in the spotlight and work best when assisting someone that does.</p>
-        <hr>
-        <h2>My Job Experience</h2>
-        <table>
+          <hr>
+
+          <div class="col-lg-12 about-page-description">
+            <p>I've spent most of my life in North Georgia. Most of the work I've done up to this point has been in the Helen area and the Dahlonega area. I have always been either a line cook, prep cook, or sous chef. i never enjoyed being in the spotlight and work best when assisting someone that does.</p>
+          </div>
+
+          <hr>
+        </div>
+      </section>
+
+      <div class="container-fluid">
+        <div class="col-lg-12" style="background-color: #F0F5F9; border: 1px solid; text-align: center;">
+          <h2>My Job Experience</h2>
+        </div>
+
+        <div class="col-lg-12" style="background-color: #F0F5F9; border: 1px solid; text-align: center;">
+          <table>
             <thead>
               <tr>
                 <th>Dates</th>
@@ -82,6 +117,11 @@
               </tr>
             </tfoot>
           </table>
+        </div>
+      </div>
+
+
+        
           
     </body>
 </html>
