@@ -1,2 +1,2 @@
 # cv
-Website Resume
+My Attempt at becoming a webdev
