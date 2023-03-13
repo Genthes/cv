@@ -10,10 +10,6 @@ body {
     color: #000;
 }
 
-.container-fluid {
-    padding: 3% 15%;
-}
-
 .navbar {
     padding: 0 0 0 0;
 }
@@ -28,7 +24,8 @@ body {
 }
 
 
-h1.landingPageTitle {
+
+.landingPageTitle {
     font-family: "Montserrat-Black";
     font-size: 3rem;
     line-height: 1.5;
@@ -36,13 +33,13 @@ h1.landingPageTitle {
     margin: 5rem .1rem .75rem .1rem;
 }
 
-p.landingPageDescription {
+.landingPageDescription {
     font-family: "Montserrat-Thin";
     font-size: 2rem;
     line-height: 1.5;
-    font-style: italic;
+    font-style: italic, #fff;
     text-align: center;
-    margin: 5rem .1rem .1rem .1rem;
+    margin: .1rem .1rem .1rem .1rem;
 }
 
 .btn-styling {
@@ -64,6 +61,7 @@ p.landingPageDescription {
 
 .about-page-title {
     text-align: center;
+    margin: 5rem .1rem .75rem .1rem;
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -77,6 +75,7 @@ p.landingPageDescription {
 
 .contact-me-page-title {
     text-align: center;
+    margin: 5rem .1rem .75rem .1rem;
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
@@ -85,6 +84,7 @@ p.landingPageDescription {
 
 .contact-me-page-description {
     text-align: center;
+    margin: 1rem .1rem .75rem .1rem;
     padding: 1rem;
     font-family: cursive;
     font-weight: bolder;
@@ -103,6 +103,7 @@ p.landingPageDescription {
 
 .favorite-books-page-title {
     text-align: center;
+    margin: 5rem .1rem .75rem .1rem;
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
@@ -111,6 +112,7 @@ p.landingPageDescription {
 
 .favorite-books-page-description {
     text-align: center;
+    margin: 1rem .1rem .75rem .1rem;
     border: #000 solid;
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
